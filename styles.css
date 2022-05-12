@@ -1,0 +1,67 @@
+
+:root{
+    --verdeescuro: #6A9F65;
+    --verdeclaro: #7BC074;
+    --textobtn: #fff;
+    --corpreta:#000;
+}
+
+
+/* Logo */
+
+.traveller_logo{
+   width: 10%;
+}
+
+.btn-menu{
+    text-decoration: underline;
+    color: #000;
+    margin-right: 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    transform: .5s;
+}
+
+.btn-menu:hover{
+  color: var(--verdeescuro);
+  box-shadow: 1px 2px 5px --corpreta;
+}
+
+/* banner */
+
+
+.img-banner{
+  width: 400px;
+  box-shadow: 1px 2px 5px --corpreta;
+}
+
+.btn_banner, .btn_box{
+  background-color: transparent;
+  color:var(--corpreta);
+  padding: 10px 15px;
+  font-weight: 500;
+  transition: .5s;
+  border-radius: 10px;
+}
+.btn_banner, .btn_box:hover{
+    background-color: var(--verdeescuro);
+    border: 1px solid #000;
+}
+
+#box_1_banner{
+  box-shadow: 1px 2px 5px --corpreta;
+}
+
+#card_traveller{
+    width: 18rem;
+    transition: .5s ease-in-out;
+}
+
+#card_traveller:hover{
+    transform: translateY(50px);
+}
+
+
+
