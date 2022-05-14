@@ -14,53 +14,60 @@
 
     <title>Traveller - Um blog anternativo de viagens</title>
 </head>
-   <body>
+
+<body>
     <!-- barra de navegação -->
-    <nav class="navbar navbar-expand-lg">
-        <section class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <!-- logo -->
-            <div class="container-sm p-0">
-                <img src="./img/traveller_logo.png" alt="logo-traveller" class="traveller_logo">
-            </div>
-            <!-- mobile menu-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- desktop menu -->
-            <article class="collapse navbar-collapse m-0" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link btn-menu" href="#">Destinos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-menu" href="#">Preços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-menu" href="#">Quem Somos</a>
-                    </li>
-                </ul>
-            </article>
-        </section>
+            <a class="navbar-brand"><img src="./img/traveller_logo.png" alt="traveller_logo" class="traveller_logo"></a>
+            <!-- toggle btn -->
+            <button class="navbar-toggler" id="my_navbar_toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </article>
+    <!-- fim do logo -->
+    
+    <!-- menu-->
+    <article class="my_menu_traveller">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active" id="my_nav_item">
+                    <a class="nav-link" href="#">Destinos</a>
+                    <div class="my_nav_underline"></div>
+                </li>
+                <li class="nav-item" id="my_nav_item">
+                <a class="nav-link" href="#">Preços</a>
+                <div class="my_nav_underline"></div>
+            </li>
+            <li class="nav-item" id="my_nav_item">
+                <a class="nav-link" href="#">Quem sou</a>
+                <div class="my_nav_underline"></div>
+            </li>                
+        </ul>
+       </div>
+      </article>
     </nav>
-     <!-- banner principal -->
-     <section class="container d-flex mb-5">
-         <!-- bloco 1-->
-         <article class="container-md text-start m-3 p-2" id="box_1_banner">
-             <h1>Bem-vindo ao Traveller</h1>
-             <p>Fique por dentro das minhas aventuras por esse planeta cheio de surpresas e mistérios.</p>
-             <button class="btn_banner">Embarque agora</button>
-         </article>
-         <!-- bloco 2 -->
-         <article>
-             <img src="./img/hiking_2.jpg" alt="" class="img-banner">
-         </article>
-     </section>
-     <!--list of boxes -->
-     <h2 class="text-center">Destinos visitados</h2>
-     <section class="d-flex justify-content-center align-content-center m-12">
-         <!-- box -->
-        <article class="card m-4" id="card_traveller">
+    <!-- fim do menu-->
+
+    <!-- banner principal -->
+    <section class="container d-lg-flex justify-content-lg-evenly mb-5 mt-5">
+        <!-- bloco 1-->
+        <article class="container text-lg-start text-center mb-3 p-2 shadow p-5 mb-5 bg-white rounded"
+            id="box_1_banner">
+            <h1>Bem-vindo ao Traveller</h1>
+            <p class="w-sm-50">Fique por dentro das minhas aventuras por esse planeta cheio de surpresas e mistérios.</p>
+                <button class="btn_banner">Embarque agora</button>
+        </article>
+        <!-- bloco 2 -->
+            <img class="rounded mx-auto d-block" src="./img/hiking_2.jpg" alt="" id="img_banner">
+    </section>
+
+    <!--list of boxes -->
+    <h2 class="text-center mb-lg-4">Destinos visitados</h2>
+    <section class="d-lg-flex justify-content-evenly align-items-sm-center">
+        <!-- box -->
+        <article class="card" id="card_traveller">
             <img class="card-img-top" src="./img/paris.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Paris</h5>
@@ -69,8 +76,8 @@
                 <button class="btn_box">Saber mais</button>
             </div>
         </article>
-         <!-- box -->
-        <article class="card m-4" id="card_traveller">
+        <!-- box -->
+        <article class="card" id="card_traveller">
             <img class="card-img-top" src="./img/japão.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Japão</h5>
@@ -79,17 +86,17 @@
                 <button class="btn_box">Saber mais</button>
             </div>
         </article>
-         <!-- box -->
-        <article class="card m-4" id="card_traveller">
+        <!-- box -->
+        <article class="card" id="card_traveller">
             <img class="card-img-top" src="./img/brazil.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Brazil</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                 <button class="btn_box">Saber mais</button>
-            </div>
         </article>
-     </section>
+        </div>
+    </section>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

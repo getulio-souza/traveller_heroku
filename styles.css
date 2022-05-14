@@ -7,11 +7,48 @@
 }
 
 
-/* Logo */
-
 .traveller_logo{
-   width: 10%;
+  width: 80px;
+  margin: 0 20px;
 }
+
+#my_nav_item{
+  font-weight:700;
+  margin: 0 10px;
+}
+
+.my_nav_underline{
+  background-color: #000;
+  margin: 0 auto;
+  width: 70px;
+  height:1px;
+  text-align: center;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.my_nav_underline:hover{
+  transform: scaleX(10%);
+}
+
+.my_menu_traveller{
+ position: absolute;
+ top: 0;
+ right: 0;
+ margin: 10px 20px;
+}
+
+/* toggle btn */
+
+#my_navbar_toggler{
+  border-style: none;
+  color: #7BC074
+}
+
+#my_navbar_toggler:hover{
+  color: #6A9F65;
+}
+
 
 .btn-menu{
     text-decoration: underline;
@@ -32,22 +69,33 @@
 /* banner */
 
 
-.img-banner{
-  width: 400px;
+#img_banner{
+  width: 60vw;
+  height: 40vh;
   box-shadow: 1px 2px 5px --corpreta;
+  border-radius: 10px;
+  object-fit: contain;
+
 }
 
-.btn_banner, .btn_box{
+.btn_banner{
   background-color: transparent;
-  color:var(--corpreta);
+  color:var(--textobtn);
   padding: 10px 15px;
   font-weight: 500;
   transition: .5s;
   border-radius: 10px;
 }
-.btn_banner, .btn_box:hover{
+.btn_banner{
     background-color: var(--verdeescuro);
     border: 1px solid #000;
+}
+
+.btn_box{
+  background-color: #6A9F65;
+  color: var(--textobtn);
+  border-radius: 10px;
+  padding: 5px 15px;
 }
 
 #box_1_banner{
