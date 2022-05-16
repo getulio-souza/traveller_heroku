@@ -15,7 +15,14 @@
 #my_nav_item{
   font-weight:700;
   margin: 0 10px;
+  color: #000;
+  transition: .3s;
 }
+
+#my_nav_item:hover{
+  color: var(--verdeescuro);
+}
+
 
 .my_nav_underline{
   background-color: #000;
@@ -38,7 +45,11 @@
  margin: 10px 20px;
 }
 
-/* toggle btn */
+/*
+============================
+Toogle btn
+============================
+*/
 
 #my_navbar_toggler{
   border-style: none;
@@ -66,7 +77,11 @@
   box-shadow: 1px 2px 5px --corpreta;
 }
 
-/* banner */
+/*
+============================
+Banner
+============================
+*/
 
 
 #img_banner{
@@ -79,16 +94,16 @@
 }
 
 .btn_banner{
-  background-color: transparent;
-  color:var(--textobtn);
+    background-color: var(--verdeescuro);
+  color: #fff;
   padding: 10px 15px;
   font-weight: 500;
   transition: .5s;
   border-radius: 10px;
 }
-.btn_banner{
-    background-color: var(--verdeescuro);
-    border: 1px solid #000;
+.btn_banner:hover{
+    background-color: var(--verdeclaro);
+  color: #fff;
 }
 
 .btn_box{
@@ -104,14 +119,18 @@
 
 #card_traveller{
     width: 18rem;
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 #card_traveller:hover{
-    transform: translateY(50px);
+    transform: translateY(15px);
 }
 
-/**************Footer***************/
+/*
+============================
+Footer
+============================
+*/
 
 #footer_container{
   background-color: #6A9F65;
