@@ -11,7 +11,10 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Styles CSS -->
     <link rel="stylesheet" href="./styles.css">
-
+    <!-- font aweasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Traveller - Um blog anternativo de viagens</title>
 </head>
 
@@ -65,43 +68,93 @@
         <img class="rounded mx-auto d-block" src="./img/hiking_2.jpg" alt="" id="img_banner">
     </section>
 
-    <!--list of boxes -->
+    <!--list of boxes (Destinos visitados) -->
     <h2 class="text-center mb-lg-4">Destinos visitados</h2>
     <!-- box -->
-    <section class="d-lg-flex justify-content-lg-evenly">
-        <article class="card mb-4 justify-content-center" id="card_traveller">
-            <img class="card-img-top" src="./img/paris.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Paris</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <button class="btn_box">Saber mais</button>
-            </div>
-        </article>
+    <section class="d-lg-flex justify-content-center gap-5 mb-4">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <article class="card mb-4" id="card_traveller">
+                <img class="card-img-top" src="./img/paris.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Paris</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button class="btn_box">Saber mais</button>
+                </div>
+            </article>
+        </div>
 
         <!-- box -->
-        <article class="card mb-4" id="card_traveller">
-            <img class="card-img-top" src="./img/japão.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Japão</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <button class="btn_box">Saber mais</button>
-            </div>
-        </article>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <article class="card mb-4" id="card_traveller">
+                <img class="card-img-top" src="./img/japão.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Japão</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button class="btn_box">Saber mais</button>
+                </div>
+            </article>
+        </div>
 
         <!-- box -->
-        <article class="card mb-4" id="card_traveller">
-            <img class="card-img-top" src="./img/brazil.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Brazil</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <button class="btn_box">Saber mais</button>
-        </article>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <article class="card mb-4" id="card_traveller">
+                <img class="card-img-top" src="./img/brazil.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Brazil</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button class="btn_box">Saber mais</button>
+            </article>
+        </div>
     </section>
-    <!-- Optional JavaScript; choose one of the two! -->
 
+    <!--list of boxes (próximos destinos) -->
+    <h2 class="text-center mx-0 my-4">Próximos destinos</h2>
+    <!-- box -->
+    <section class="d-lg-flex justify-content-center gap-5 mb-4">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <article class="card mb-4" id="card_traveller">
+                <img class="card-img-top" src="./img/paris.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Austrália</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button class="btn_box">Saber mais</button>
+                </div>
+            </article>
+        </div>
+
+        <!-- box -->
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <article class="card mb-4" id="card_traveller">
+                <img class="card-img-top" src="./img/japão.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Africa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button class="btn_box">Saber mais</button>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- footer -->
+     <footer class=" text-white p-5" id="footer_container">
+      <h4 class="text-center">Siga as minhas redes</h4>
+      <!-- social icons -->
+      <div class="my_social_icons">
+       <ul class="list-unstyled d-flex justify-content-center gap-3 mt-2">
+           <li><i class="fa-brands fa-facebook"></i></li>
+           <li><i class="fa-brands fa-instagram"></i></li>
+           <li><i class="fa-brands fa-twitter"></i></li>
+           <li><i class="fa-brands fa-linkedin"></i></li>
+        </ul>
+        <!-- copyright -->
+        <p class="text-center">2022. Todos os direitos reservados.</p>
+      </div>
+     </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

@@ -111,5 +111,15 @@
     transform: translateY(50px);
 }
 
+/**************Footer***************/
 
+#footer_container{
+  background-color: #6A9F65;
+}
 
+.my_social_icons ul li:hover{
+  opacity: 0.6;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  transform: translateY(5px);
+}
