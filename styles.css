@@ -12,6 +12,17 @@
   margin: 0 20px;
 }
 
+
+/*
+======================
+Navbar
+======================
+*/
+
+.navbar_mobile{
+ background-color: var(--verdeescuro);
+}
+
 #my_nav_item{
   font-weight:700;
   margin: 0 10px;
@@ -22,7 +33,6 @@
 #my_nav_item:hover{
   color: var(--verdeescuro);
 }
-
 
 .my_nav_underline{
   background-color: #000;
@@ -90,7 +100,12 @@ Banner
   box-shadow: 1px 2px 5px --corpreta;
   border-radius: 10px;
   object-fit: contain;
+}
 
+@media screen and (max-width:678px){
+  #img_banner{
+    display: none;
+  }
 }
 
 .btn_banner{

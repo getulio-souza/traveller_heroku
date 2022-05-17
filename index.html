@@ -19,40 +19,39 @@
 </head>
 
 <body>
+     
     <!-- barra de navegação -->
-     <nav class="navbar navbar-expand-lg navbar-light">
-         <section class="container-fluid position-relative">
-             <a class="navbar-brand"><img src="./img/traveller_logo.png" alt="traveller_logo"
-                     class="traveller_logo"></a>
-             <button class="navbar-toggler position-relative" type="button" data-bs-toggle="collapse"
-                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                 aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon" id="my_toggle_btn"></span>
-             </button>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <section class="container-fluid">
+            <!-- logo -->
+            <a class="navbar-brand"><img src="./img/traveller_logo.png" alt="traveller_logo" class="traveller_logo"></a>
+            <!-- button-->
+            <button class="navbar-toggler position-relative" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" id="my_toggle_btn"></span>
+            </button>
 
-             <!-- icons -->
-             <article class="container-fluid">
-                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-end" >
-                         <li class="nav-item">
-                             <a class="nav-link active" aria-current="page" href="#" id="my_nav_item">Destinos</a>
-                         <div class="my_nav_underline"></div>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link active" aria-current="page" href="#" id="my_nav_item">Preços</a>
-                          <div class="my_nav_underline"></div>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link active" aria-current="page" href="#" id="my_nav_item">Quem sou</a>
-                         <div class="my_nav_underline"></div>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-            
-         </section>
-     </nav>
-        <!-- fim do menu-->
+            <!-- icons -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="my_nav_item">Destinos</a>
+                        <div class="my_nav_underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="my_nav_item">Preços</a>
+                        <div class="my_nav_underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="my_nav_item">Quem sou</a>
+                        <div class="my_nav_underline"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </nav>
+    <!-- fim do menu-->
     </nav>
     <!-- fim da barra de navegação -->
 
@@ -71,7 +70,7 @@
     </section>
 
     <!--list of boxes (Destinos visitados) -->
-    <h2 class="text-center mb-lg-4">Destinos visitados</h2>
+    <h2 class="text-center mx-0 my-4">Destinos visitados</h2>
     <!-- box -->
     <section class="d-lg-flex justify-content-center gap-5 mb-4">
         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -141,21 +140,22 @@
             </article>
         </div>
     </section>
+    
     <!-- footer -->
-     <footer class=" text-white p-5 mt-5" id="footer_container">
-      <h4 class="text-center">Siga as minhas redes</h4>
-      <!-- social icons -->
-      <div class="my_social_icons">
-       <ul class="list-unstyled d-flex justify-content-center gap-3 mt-2">
-           <li><i class="fa-brands fa-facebook"></i></li>
-           <li><i class="fa-brands fa-instagram"></i></li>
-           <li><i class="fa-brands fa-twitter"></i></li>
-           <li><i class="fa-brands fa-linkedin"></i></li>
-        </ul>
-        <!-- copyright -->
-        <p class="text-center">2022. Todos os direitos reservados.</p>
-      </div>
-     </footer>
+    <footer class=" text-white p-5 mt-5" id="footer_container">
+        <h4 class="text-center">Siga as minhas redes</h4>
+        <!-- social icons -->
+        <div class="my_social_icons">
+            <ul class="list-unstyled d-flex justify-content-center gap-3 mt-2">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+            <!-- copyright -->
+            <p class="text-center">2022. Todos os direitos reservados.</p>
+        </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
