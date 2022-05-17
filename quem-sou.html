@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +16,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Quem sou eu</title>
 </head>
+
 <body>
     <!-- barra de navegação -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <section class="container-fluid">
             <!-- logo -->
-            <a class="navbar-brand"><img src="./img/traveller_logo.png" alt="traveller_logo" class="traveller_logo"></a>
+            <a class="navbar-brand"><img src="./img/traveller_logo.png" alt="traveller_logo" class="traveller_logo" href="./index.html"></a>
             <!-- button-->
             <button class="navbar-toggler position-relative" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-end">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" id="my_nav_item">Destinos</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html" id="my_nav_item">Destinos</a>
                         <div class="my_nav_underline"></div>
                     </li>
                     <li class="nav-item">
@@ -52,28 +54,52 @@
     <!-- fim da barra de navegação -->
 
     <!-- about -->
-        <article class="text-center">
-            <h1>Meu nome é João e...</h1>
-            <img src="https://cdn.pixabay.com/photo/2017/08/02/13/20/people-2571590_960_720.jpg" alt="" class="w-50 rounded-2 shadow">
-            <p class="mt-2">estou aqui para te apresentar ao meu blog de viagens.</p>
-        </article>
-        <!-- timeline gallery-->
+    <article class="container-fluid text-center mb-8">
+        <h1>Meu nome é João e...</h1>
+        <img src="https://cdn.pixabay.com/photo/2017/08/02/13/20/people-2571590_960_720.jpg" alt=""
+            class="w-50 rounded-2 shadow">
+        <p class="mt-2">estou aqui para te apresentar ao meu blog de viagens.</p>
+    </article>
 
-        <!--image 1 -->
-        <section class="container mt-8">
-            <article class="text-center mt-8">
-                <h3>Já estive cercado por paisagens maravilhosas...</h3>
-                <p>mas sinto que preciso compartilhar os momentos que vivi com outras pessoas para elas também terem a oportunidade de conhecê-las.</p>
-            </article>
-        <article class="row gap-0">
-        <!--image -->
-            <img src="https://cdn.pixabay.com/photo/2017/08/02/13/20/people-2571590_960_720.jpg" alt="" class="w-50">
-        <!--image -->
-            <img src="https://cdn.pixabay.com/photo/2017/08/02/13/20/people-2571590_960_720.jpg" alt="" class="w-50">
-        <!--image -->
-            <img src="https://cdn.pixabay.com/photo/2017/08/02/13/20/people-2571590_960_720.jpg" alt="" class="w-50">
-        <!--image -->
-            <img src="https://cdn.pixabay.com/photo/2017/08/02/13/20/people-2571590_960_720.jpg" alt="" class="w-50">
+    <!-- timeline gallery-->
+    <!--image 1 -->
+    <section class="container">
+        <article class="text-center">
+            <h3>Já estive cercado por paisagens maravilhosas...</h3>
+        </article>
+        <article class="row">
+            <div class="d-flex">
+                <!--image -->
+                <img src="https://i.insider.com/5617d850eab8ea9a207539fa" alt=""
+                    class="w-50">
+                <!--image -->
+                <img src="https://www.whileimyoung.com/wp-content/uploads/2019/12/man-1031385_1280-2.jpg"
+                    alt=""
+                    class="w-50">
+                <!--image -->
+                <img src="https://www.boboandchichi.com/wp-content/uploads/Scott-Photographing-in-Peak-Design-Backpack-1-865x577.jpg"
+                    alt=""
+                    class="w-50">
+                <!--image -->
+                <img src="https://lets-travel-more.com/wp-content/uploads/2019/11/backpacker-e1572867205762.jpg" alt=""
+                    class="w-50">
+            </div>
+        </article>
+         <p class="text-center mt-4">mas sinto que preciso compartilhar os momentos que vivi com outras pessoas para elas também terem a
+             oportunidade de conhecê-las.</p>
+    </section>
+
+    <!-- invite -->
+    <!-- about -->
+    <section class="d-flex justify-content-center align-items-center gap-4">
+        <article class="p-4 text-center">
+            <h3 class="mb-4">Chegou a sua hora de fazer as malas</h3>
+            <button class="btn_banner">Procurar destinos</button>
+        </article>
+
+        <article class="rounded-2">
+            <img src="https://luxeadventuretraveler.com/wp-content/uploads/2019/12/Luxe-Adventure-Traveler-Travel-Planning-1.jpg"
+                alt="image-invite" style="max-width: 30rem">
         </article>
     </section>
 
@@ -93,4 +119,5 @@
         </div>
     </footer>
 </body>
+
 </html>
