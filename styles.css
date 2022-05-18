@@ -1,3 +1,8 @@
+/*
+======================
+Estilos Globais
+======================
+*/
 
 :root{
     --verdeescuro: #6A9F65;
@@ -13,6 +18,9 @@
   cursor: pointer;
 }
 
+#titles{
+  font-weight: 600;
+}
 
 /*
 ======================
@@ -140,6 +148,23 @@ Banner
 
 #card_traveller:hover{
     transform: translateY(15px);
+}
+
+/*
+============================
+About
+============================
+*/
+
+#about_img, #invite_img{
+  box-shadow: 1px 2px 5px var(--corpreta);
+  max-width: 50rem;
+}
+
+#about_paragraphy{
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 10px;
 }
 
 /*
