@@ -168,6 +168,32 @@ About
 }
 
 /*
+========================
+Modal 
+========================
+*/
+.modal_header{
+  background-color: #6A9F65;
+  color: #fff;
+}
+
+
+.btn_modal_close{
+  border-style: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+  transform: .5s;
+}
+.btn_modal_close:hover{
+  color: var(--verdeescuro);
+}
+
+#select_container{
+  margin-left: 10px;
+}
+
+/*
 ============================
 Footer
 ============================
