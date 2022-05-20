@@ -190,6 +190,22 @@ Modal
 }
 
 #select_container{
+  margin-left: 20px;
+}
+
+#select_container_start{
+  margin-left: 30px;
+}
+
+#select_container_arrive{
+ margin-left: 20px;
+}
+
+#select_container_state{
+  margin-left: 35px;
+}
+
+#select_container_airport{
   margin-left: 10px;
 }
 
