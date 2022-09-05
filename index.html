@@ -26,6 +26,10 @@
 
     <!-- map quest api -->
     <script src="./script.js"></script>
+    <!-- api google -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA23VpIr3wOxEqZ3xUuX69fSWwn6Gjw_fs&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v6_cAF"
+        async defer></script>
     <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
     <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css" />
 
@@ -752,8 +756,9 @@
 
     <!-- área do mapa -->
     <h2 class="text-center p-4">Navegue pelo seu destino</h2>
-    <section class="map-container" id="coordenadas">
-        <article class="d-flex justify-content-center align-items-center" id="mapa">aqui fica o mapa</article>
+    <section class="map-container">
+        <div id="coordenadas" class="coordenadas"></div>
+        <div id="mapa" class="mapa"></div>
     </section>
 
     <!-- footer -->
